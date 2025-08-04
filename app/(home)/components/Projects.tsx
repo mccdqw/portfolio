@@ -1,5 +1,5 @@
 import React from 'react'
-import { SiDash, SiMongodb, SiNextdotjs, SiNodedotjs, SiPandas, SiPython, SiScipy, SiTailwindcss } from 'react-icons/si'
+import { SiDash, SiFlask, SiMongodb, SiNextdotjs, SiNodedotjs, SiPandas, SiPython, SiReact, SiScipy, SiTailwindcss } from 'react-icons/si'
 import Title from './Title'
 import Link from 'next/link'
 import { cn } from '@/lib/utils'
@@ -20,6 +20,13 @@ export default function Projects() {
         tech: [SiPython, SiDash, SiPandas, SiScipy],
         link: "https://github.com/mccdqw/Financial-Dashboard",
         cover: "/fd.png",
+        background: "bg-green-500"
+    },
+    {
+        title: "Stock Valuation Engine",
+        tech: [SiReact, SiFlask],
+        link: "https://github.com/mccdqw/stock-valuation-engine",
+        cover: "/stock-valuation-app.png",
         background: "bg-green-500"
     }
   ]
