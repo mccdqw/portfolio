@@ -25,7 +25,7 @@ export default function Projects() {
     {
         title: "Stock Valuation Engine",
         tech: [SiReact, SiFlask],
-        link: "https://github.com/mccdqw/stock-valuation-engine",
+        link: "https://github.com/mccdqw/stock-valuation-engine/tree/main/stock-valuation-app",
         cover: "/stock-valuation-app.PNG",
         background: "bg-green-500"
     }
