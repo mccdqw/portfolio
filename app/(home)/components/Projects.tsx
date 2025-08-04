@@ -11,7 +11,7 @@ export default function Projects() {
     {
         title: "Vidsights",
         tech: [SiNextdotjs, SiTailwindcss, SiNodedotjs, SiMongodb],
-        link: "https://vidsights.com",
+        link: "https://www.vidsights.com/",
         cover: "/vidsights.png",
         background: "bg-indigo-500"
     },
